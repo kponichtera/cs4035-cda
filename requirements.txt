@@ -1,0 +1,8 @@
+jupyter
+scikit-learn
+pandas
+seaborn
+matplotlib
+# Downgraded version of the IPython due to bug that makes it impossible to debug the notebooks
+# https://youtrack.jetbrains.com/issue/PY-49621
+ipython==7.18
