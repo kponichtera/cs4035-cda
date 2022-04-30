@@ -12,6 +12,7 @@ docker run -it \
   -v "$HOME/.local/share/jupyter:/.local/share/jupyter" \
   -v "$HOME/.config/matplotlib:/.config/matplotlib" \
   -v "$HOME/.cache/matplotlib:/.cache/matplotlib" \
+  -v "$HOME/.cache/jedi:/.cache/jedi" \
   -v "$HOME/.jupyter:/.jupyter" \
   -v "$(pwd)/jupyter:/jupyter" \
   $DOCKER_IMAGE

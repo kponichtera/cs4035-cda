@@ -1,4 +1,6 @@
 .idea
+.Trash-*
+.virtual_documents
 
 ### JupyterNotebooks template
 # gitignore template for Jupyter Notebooks
