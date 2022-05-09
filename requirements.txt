@@ -1,5 +1,6 @@
 jupyterlab==3.3.4
 jupyterlab-lsp==3.10.1
+jupyterlab-git==0.37.1
 python-lsp-server[all]==1.4.1
 scikit-learn==1.0.2
 pandas==1.4.2
