@@ -19,9 +19,9 @@ services:
     ports:
       - "127.0.0.1:8888:8888"
     user: "${CONTAINER_USER}"
-    working_dir: "/jupyter"
+    working_dir: "/project"
     volumes:
-      - "${PROJECT_DIR}/jupyter:/jupyter"
+      - "${PROJECT_DIR}:/project"
       - "jupyterlab-local:/.local"
       - "jupyterlab-data:/.jupyter"
       - "jupyterlab-config:/.config"
@@ -29,8 +29,6 @@ services:
     depends_on:
       jupyterlab-init:
         condition: service_completed_successfully
-
-
 
 volumes:
   jupyterlab-local: {}
