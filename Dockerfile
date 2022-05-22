@@ -2,7 +2,7 @@ FROM python:3.10
 EXPOSE 8888
 
 RUN apt-get update \
-    && apt-get install -y pandoc \
+    && apt-get install -y pandoc texlive-xetex \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
