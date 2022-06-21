@@ -25,3 +25,4 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT ["jupyter"]
 CMD ["lab", "--ip=0.0.0.0"]
+
